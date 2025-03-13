@@ -1,0 +1,38 @@
+#root {
+  direction: rtl;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #646cff;
+}
+
+.input-wrapper input {
+  font-family: Vazirmatn !important;
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  width: 13em;
+  border-radius: 1rem;
+  color: #646cff;
+  /* box-shadow: 0 0.4rem #dfd9d9; */
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.input-wrapper input:focus {
+  outline-color: #646cff;
+}
+
+.module {
+  max-width: 400px;
+  padding: 3rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0)) 1 100%;
+}
